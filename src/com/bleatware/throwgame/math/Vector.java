@@ -55,4 +55,23 @@ public class Vector {
     public void set(Vector other) {
         set(other.x, other.y);
     }
+
+    public boolean isZero() {
+        return x == 0 && y == 0;
+    }
+
+    public Vector sub(Vector other) {
+        return sub(other.x, other.y);
+    }
+
+    public Vector rotate(float rotation) {
+        float v = magn();
+        x = (float) (v * Math.sin(Math.asin(x / v) + Math.toRadians(rotation)));
+        y = (float) (v * Math.cos(Math.acos(y / v) + Math.toRadians(rotation)));
+        return this;
+    }
+
+    private float magn() {
+        return (float) Math.sqrt(x * x + y * y);
+    }
 }

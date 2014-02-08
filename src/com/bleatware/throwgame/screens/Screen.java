@@ -1,6 +1,7 @@
 package com.bleatware.throwgame.screens;
 
 import android.graphics.Canvas;
+import com.bleatware.throwgame.Game;
 
 /**
  * ThrowGame
@@ -9,7 +10,7 @@ import android.graphics.Canvas;
  * Time: 7:16 PM
  */
 public interface Screen {
-    public void create();
+    public void create(Game g);
     public void destroy();
     public void pause();
     public void resume();

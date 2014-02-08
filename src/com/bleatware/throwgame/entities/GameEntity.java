@@ -29,5 +29,6 @@ public abstract class GameEntity {
         dead = true;
     }
 
+    public abstract void destroy();
     public abstract void update(float delT);
 }

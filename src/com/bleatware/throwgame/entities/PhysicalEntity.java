@@ -1,7 +1,7 @@
 package com.bleatware.throwgame.entities;
 
 import com.bleatware.throwgame.math.Vector;
-import com.bleatware.throwgame.physics.HitBox;
+import com.bleatware.throwgame.physics.Body;
 
 /**
  * ThrowGame
@@ -10,17 +10,30 @@ import com.bleatware.throwgame.physics.HitBox;
  * Time: 8:28 PM
  */
 public abstract class PhysicalEntity extends GameEntity {
-    protected HitBox box;
+    @Override
+    public void destroy() {
+        level.world.removeBody(body);
+    }
+
+    public Body body;
 
     protected PhysicalEntity(Vector position, float w, float h) {
         super();
-        box = new HitBox(w, h);
-        box.getPosition().set(position);
+        body = new Body(w, h);
+        body.getPosition().set(position);
+        body.setOwner(this);
+        level.world.addBody(body);
     }
 
     public Vector getPosition() {
-        return box.getPosition();
+        return body.getPosition();
     }
 
-    public abstract void collision(GameEntity other);
+    public void setVelocity(Vector velocity) {
+        body.velocity.set(velocity);
+    }
+    public Vector getVelocity() {
+        return body.velocity;
+    }
+    public abstract void collision(PhysicalEntity other);
 }
