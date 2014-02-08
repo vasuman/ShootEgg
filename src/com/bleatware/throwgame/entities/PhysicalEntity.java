@@ -32,6 +32,10 @@ public abstract class PhysicalEntity extends GameEntity {
     public void setVelocity(Vector velocity) {
         body.velocity.set(velocity);
     }
+
+    public void setVelocity(float x, float y) {
+        body.velocity.set(x, y);
+    }
     public Vector getVelocity() {
         return body.velocity;
     }

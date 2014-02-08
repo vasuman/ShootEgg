@@ -74,4 +74,10 @@ public class Vector {
     private float magn() {
         return (float) Math.sqrt(x * x + y * y);
     }
+
+    public Vector factor(float fX, float fY) {
+        x *= fX;
+        y *= fY;
+        return this;
+    }
 }

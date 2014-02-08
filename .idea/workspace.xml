@@ -5,29 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba4f979a-0244-4860-b347-70f03cac55ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/AABB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/graphics/CompositeDrawer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/Counter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/Data.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/GameActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/Input.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Launcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Pan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/graphics/PixelBitmap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Splatter.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/Drawer.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/Drawable.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/graphics/Drawable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/HitBox.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/Body.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/base.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/cannon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/egg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/plate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/splat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/Accelerometer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/SplashScreen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/StartScreen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Stats.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/Body.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/Body.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/Counter.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/Counter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/Data.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/Data.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Egg.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Egg.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/Game.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/GameEntity.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/GameEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/GameActivity.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/GameActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/Input.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/Input.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Launcher.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Launcher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Level.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Level.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Pan.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Pan.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/PhysicalEntity.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/PhysicalEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Screen.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Screen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Splatter.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Splatter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/math/Vector.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/math/Vector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/World.java" afterPath="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/World.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThrowGame.iws" />
@@ -83,23 +85,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/bleatware/throwgame/physics/World.java" line="97" class="com.bleatware.throwgame.physics.World" package="com.bleatware.throwgame.physics">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -109,14 +94,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Splatter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Splatter.java">
+      <file leaf-file-name="StartScreen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/screens/StartScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="21" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="645">
+            <state line="27" column="28" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="1050">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#568#777#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,7 +110,40 @@
       <file leaf-file-name="Launcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="32" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="825">
+            <state line="19" column="45" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="840">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pan.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Pan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="32" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.0" vertical-offset="790" max-vertical-offset="1365">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2452#2453#0" expanded="true" />
+                <element signature="e#2481#2482#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="44" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stats.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Stats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="68" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="735">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,32 +154,19 @@
       <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="28" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="1590">
+            <state line="50" column="27" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.0" vertical-offset="674" max-vertical-offset="1860">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#939#951#0" expanded="true" />
+                <element signature="e#966#978#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pan.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Pan.java">
+      <file leaf-file-name="SplashScreen.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/screens/SplashScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="26" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="915">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#1478#1479#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Body.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/physics/Body.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="67" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="855">
+            <state line="43" column="32" selection-start="889" selection-end="889" vertical-scroll-proportion="0.34246576" vertical-offset="520" max-vertical-offset="885">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,30 +174,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Input.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Input.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="750">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/GameActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="8" selection-start="871" selection-end="871" vertical-scroll-proportion="0.9041096" vertical-offset="90" max-vertical-offset="825">
+            <state line="30" column="44" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/GameEntity.java">
+      <file leaf-file-name="Data.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="218" max-vertical-offset="540">
+            <state line="41" column="1" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="720">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,24 +194,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhysicalEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/PhysicalEntity.java">
+      <file leaf-file-name="Counter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="645">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="World.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/physics/World.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="0" selection-start="2558" selection-end="2558" vertical-scroll-proportion="0.0" vertical-offset="1318" max-vertical-offset="1875">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="25" column="21" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -236,7 +217,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Screen.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/StartScreen.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Drawable.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/WorldEntity.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/PhEntity.java" />
@@ -247,7 +227,6 @@
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/Box.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/AABB.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Drawer.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/graphics/Drawer.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/graphics/BitmapDrawer.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/graphics/Composite.java" />
@@ -255,22 +234,29 @@
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/InputRegion.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/math/other.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Screen.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Game.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/graphics/PixelBitmap.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Counter.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Input.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/math/Vector.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Splatter.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/GameEntity.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Egg.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/PhysicalEntity.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Data.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/World.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/math/Vector.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Splatter.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/physics/Body.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Pan.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Level.java" />
-        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Stats.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/GameOverScreen.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Egg.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Input.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Data.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Accelerometer.java" />
         <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/GameActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/PhysicalEntity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Pan.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/Counter.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/StartScreen.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Stats.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Level.java" />
+        <option value="$PROJECT_DIR$/src/com/bleatware/throwgame/screens/SplashScreen.java" />
       </list>
     </option>
   </component>
@@ -500,12 +486,14 @@
     <property name="recentsLimit" value="5" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="SearchEverywhereHistory" value="data" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bleatware.throwgame.screens" />
       <recent name="com.bleatware.throwgame.math" />
       <recent name="com.bleatware.throwgame.physics" />
       <recent name="com.bleatware.throwgame.entities" />
@@ -720,11 +708,16 @@
       <created>1391780641613</created>
       <updated>1391780641613</updated>
     </task>
+    <task id="LOCAL-00001" summary="Working prototype">
+      <created>1391834745119</created>
+      <updated>1391834745119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="26" width="1368" height="743" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -745,7 +738,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22885196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22885196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -792,6 +785,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Working prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working prototype" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -850,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="53" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///opt/android-sdk/sources/android-14/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="855" column="0" selection-start="28522" selection-end="28522" vertical-scroll-proportion="0.0" vertical-offset="12017" max-vertical-offset="18900">
@@ -892,42 +880,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/graphics/Drawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/math/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="1245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="27" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="525">
-          <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/graphics/PixelBitmap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="915">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0" vertical-offset="914" max-vertical-offset="1950">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -941,46 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Egg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="40" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="930">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="47" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="615">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Splatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="21" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="645">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/PhysicalEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="645">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/GameEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="540">
@@ -990,39 +905,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/math/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="16" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="910" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="0" selection-start="3276" selection-end="3276" vertical-scroll-proportion="0.0" vertical-offset="1589" max-vertical-offset="1995">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Splatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="615">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/physics/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="0" selection-start="2558" selection-end="2558" vertical-scroll-proportion="0.0" vertical-offset="1304" max-vertical-offset="1875">
+        <state line="98" column="32" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.0" vertical-offset="1131" max-vertical-offset="1875">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Pan.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Egg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="26" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="915">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="28" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="1590">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#939#951#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="825">
+        <state line="59" column="20" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="573" max-vertical-offset="1005">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1031,16 +950,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/physics/Body.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="67" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="855">
+        <state line="37" column="57" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="870">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/graphics/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="29" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="750">
+        <state line="23" column="72" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1005">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/PhysicalEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="23" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="705">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Accelerometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="57" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="1" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="720">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1049,8 +1005,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/GameActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="8" selection-start="871" selection-end="871" vertical-scroll-proportion="0.9041096" vertical-offset="90" max-vertical-offset="825">
+        <state line="30" column="44" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1035">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="44" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Pan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="32" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.0" vertical-offset="790" max-vertical-offset="1365">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2452#2453#0" expanded="true" />
+            <element signature="e#2481#2482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="21" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/entities/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="45" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="840">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/screens/StartScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="28" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="1050">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#568#777#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Stats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="68" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="735">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/screens/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="27" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.0" vertical-offset="674" max-vertical-offset="1860">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#966#978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bleatware/throwgame/screens/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="32" selection-start="889" selection-end="889" vertical-scroll-proportion="0.34246576" vertical-offset="520" max-vertical-offset="885">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

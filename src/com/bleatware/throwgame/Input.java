@@ -17,28 +17,45 @@ import java.util.List;
  * Time: 4:11 AM
  */
 public class Input implements View.OnTouchListener {
-    private static final float TOUCH_HIT = 15;
+    private static final float TOUCH_HIT = 100;
+    public static final int LEFT_MOVE_BUTTON = 1;
+    public static final int RIGHT_MOVE_BUTTON = 2;
+
+    private List<MotionEvent> eventQueue = new ArrayList<MotionEvent>();
 
     public static interface Touchable {
         public void touched();
     }
+
     private World world;
     public Input(World world) {
         this.world = world;
     }
 
-    @Override
-    public boolean onTouch(View v, MotionEvent event) {
-        float x = event.getX() / Game.scaleX;
-        float y = event.getY() / Game.scaleY;
-        Body b = world.getContactPoint(new Vector(x, y), TOUCH_HIT);
-        if(b != null) {
-            PhysicalEntity e = b.getOwner();
-            if(e instanceof Touchable) {
-                ((Touchable) e).touched();
-                return true;
+    public void process() {
+        for(MotionEvent event: eventQueue) {
+            float x = event.getX() / Game.scaleX;
+            float y = event.getY() / Game.scaleY;
+            Body b = world.getContactPoint(new Vector(x, y), TOUCH_HIT);
+            if(b != null) {
+                PhysicalEntity e = b.getOwner();
+                if(e instanceof Touchable) {
+                    ((Touchable) e).touched();
+                }
             }
         }
+        eventQueue.clear();
+    }
+
+    @Override
+    public boolean onTouch(View v, MotionEvent event) {
+        if(event.getAction() == MotionEvent.ACTION_DOWN) {
+            eventQueue.add(event);
+            return true;
+        }
         return false;
+    }
+
+    public static class InputRegion {
     }
 }

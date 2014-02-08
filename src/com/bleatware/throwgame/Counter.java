@@ -16,8 +16,14 @@ public class Counter {
     public void reset() {
         t = count;
     }
+    public void fire() {
+        t = 0;
+    }
     public void setCount(float count) {
         this.count = count;
+    }
+    public float getCount() {
+        return count;
     }
     public boolean update(float delT) {
         if((t -= delT) < 0) {

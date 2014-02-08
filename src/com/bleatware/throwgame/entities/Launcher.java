@@ -17,10 +17,10 @@ import com.bleatware.throwgame.math.Vector;
 public class Launcher extends GameEntity implements Drawable{
 
     public static final Vector position = new Vector(25, Game.S_HEIGHT - 20);
+    private static final float MIN_TIME = 1.3f;
+    private static final float EGG_SPEED = 450;
     private CompositeDrawer drawer;
     private PixelBitmap cannonImage;
-    private float eggSpeed = 450f;
-    private float rotation = 0;
     private Counter counter = new Counter(2f);
     public Launcher() {
         cannonImage = new PixelBitmap(Data.cannon);
@@ -42,10 +42,11 @@ public class Launcher extends GameEntity implements Drawable{
     @Override
     public void update(float delT) {
         if(counter.update(delT)) {
-            rotation = 20 + (float) Math.random() * 60;
+            float rotation = 20 + (float) Math.random() * 60;
             cannonImage.setRotation(-rotation);
             Egg egg = new Egg(position);
-            egg.body.setVelocity(new Vector(eggSpeed, 0).rotate(rotation));
+            counter.setCount(Math.max(0.97f * counter.getCount(), MIN_TIME));
+            egg.body.setVelocity(new Vector(EGG_SPEED, 0).rotate(rotation));
         }
     }
 }

@@ -66,6 +66,9 @@ public class Game implements Runnable, SurfaceHolder.Callback {
                 screen.update((startTime - prevTime) / 1000.0f);
             }
             Canvas c = view.getHolder().lockCanvas();
+            if(c == null) {
+                return;
+            }
             c.scale(view.getWidth() / S_WIDTH, view.getHeight() / S_HEIGHT);
             c.drawColor(Color.BLACK);
             if(hasScreen()) {

@@ -2,15 +2,13 @@ package com.bleatware.throwgame.screens;
 
 import android.graphics.Camera;
 import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
+import com.bleatware.throwgame.Counter;
 import com.bleatware.throwgame.Data;
 import com.bleatware.throwgame.Input;
 import com.bleatware.throwgame.entities.Launcher;
 import com.bleatware.throwgame.entities.Pan;
 import com.bleatware.throwgame.graphics.Drawable;
 import com.bleatware.throwgame.Game;
-import com.bleatware.throwgame.entities.Egg;
 import com.bleatware.throwgame.entities.GameEntity;
 import com.bleatware.throwgame.graphics.PixelBitmap;
 import com.bleatware.throwgame.math.Vector;
@@ -27,22 +25,31 @@ import java.util.List;
  */
 public class Level implements Screen {
     private static final float Y_EXCEED_RATIO = 3f;
+    private static final float SHAKE_TIME = 1;
+    private static final float SHAKE_DISP = 5;
     private final List<GameEntity> entities = new ArrayList<GameEntity>();
     public World world;
     public Camera camera = new Camera();
     private Drawable.Drawer background;
     private Input input;
-    public int score;
-    private Paint paint = new Paint();
+    public Stats stats;
+    private Game g;
+    private Counter shakeTimer = new Counter(SHAKE_TIME);
+    private boolean shake = false;
+
+    public void shake() {
+        shake = true;
+        shakeTimer.reset();
+    }
 
     @Override
     public void create(Game g) {
+        this.g = g;
         GameEntity.setLevel(this);
         world = new World(0, (1 - Y_EXCEED_RATIO) * Game.S_HEIGHT, Game.S_WIDTH, Game.S_HEIGHT * Y_EXCEED_RATIO);
         input = new Input(world);
+        stats = new Stats(3);
         g.view.setOnTouchListener(input);
-        paint.setColor(Color.BLACK);
-        paint.setTextSize(20);
         world.setGravity(new Vector(0, 200));
         background = new PixelBitmap(Data.background, true);
         // DEBUG!!
@@ -68,7 +75,12 @@ public class Level implements Screen {
 
     @Override
     public void update(float delT) {
+        if(stats.gameOver()) {
+            g.setScreen(new StartScreen(stats.getScore()));
+            return;
+        }
         world.update(delT);
+        input.process();
         for(int i = entities.size() - 1; i >= 0; i--) {
             GameEntity e = entities.get(i);
             if(e.isDead()) {
@@ -78,10 +90,16 @@ public class Level implements Screen {
             }
             e.update(delT);
         }
+        if(shake && shakeTimer.update(delT)) {
+            shake = false;
+        }
     }
 
     @Override
     public void draw(Canvas c) {
+        if(shake) {
+            c.translate((float) Math.random() * SHAKE_DISP, (float) Math.random() * SHAKE_DISP);
+        }
         background.draw(c);
         synchronized (entities) {
             for(GameEntity e:  entities) {
@@ -91,7 +109,7 @@ public class Level implements Screen {
                 }
             }
         }
-        c.drawText("Score: " + score, 100, 100, paint);
+        stats.getDrawer().draw(c);
     }
 
     public void addEntity(GameEntity gameEntity) {

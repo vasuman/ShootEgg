@@ -12,8 +12,8 @@ import com.bleatware.throwgame.math.Vector;
  * Time: 5:48 AM
  */
 public class Splatter extends PhysicalEntity implements Drawable{
-    public static final float S_W = 33;
-    public static final float S_H = 15;
+    public static final float S_W = 25;
+    public static final float S_H = 10;
     private PixelBitmap drawer;
     public Splatter(Vector position) {
         super(position, S_W, S_H);

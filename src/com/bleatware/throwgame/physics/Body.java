@@ -14,7 +14,8 @@ public class Body {
     public Vector position = new Vector();
     public Vector velocity = new Vector();
     public Vector acceleration = new Vector();
-    float w, h;
+    public float w;
+    float h;
     PhysicalEntity owner;
 
     public void setFixed(boolean fixed) {
@@ -34,8 +35,8 @@ public class Body {
     }
 
     public boolean collide(Body other) {
-        if(Math.abs(position.x - other.position.x) < w + other.w) {
-            if(Math.abs(position.y - other.position.y) < h + other.h) {
+        if(Math.abs(position.x - other.position.x) < w / 2 + other.w / 2) {
+            if(Math.abs(position.y - other.position.y) < h / 2 + other.h / 2) {
                 return true;
             }
         }
